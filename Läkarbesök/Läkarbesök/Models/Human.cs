@@ -16,20 +16,20 @@ namespace Läkarbesök.Models
             Position = new Coords(0, 0);
         }
 
-        public Human(string name)
-        {
-            Position = new Coords(0, 0);
-            Name = name;
-        }
+        //public Human(string name)
+        //{
+        //    Position = new Coords(0, 0);
+        //    Name = name;
+        //}
 
-        public Human(string name, int age)
-        {
-            Position = new Coords(0, 0);
-            Name = name;
-            Age = age;
-        }
+        //public Human(string name, int age)
+        //{
+        //    Position = new Coords(0, 0);
+        //    Name = name;
+        //    Age = age;
+        //}
 
-        public void Move(int x, int y)
+        public virtual void Move(int x, int y)
         {
             Position = new Coords(x, y);
         }

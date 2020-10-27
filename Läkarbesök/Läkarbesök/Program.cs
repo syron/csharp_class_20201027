@@ -9,12 +9,28 @@ namespace Läkarbesök
         {
             Console.WriteLine("Creating our first human!");
 
-            Human human1 = new Human("Robert Winston Leonard Jesko Paul Christian Mayer", 32);
-            Human human2 = new Human("Robert Winston Leonard Jesko Paul Christian Mayer");
-            human2.SetAge(32);
+            //Human human1 = new Human("Robert Winston Leonard Jesko Paul Christian Mayer", 32);
+            //Human human2 = new Human("Robert Winston Leonard Jesko Paul Christian Mayer");
+            //human2.SetAge(32);
 
 
-            Appointment a = new Appointment();
+
+            //Coords coords = new Coords(100, 200);
+
+            //// (x,y)
+            //string textForConsole = coords.ToString();
+
+
+            //Console.WriteLine(textForConsole);
+
+
+
+
+
+
+
+
+
         }
 
         static void CreateHumansBeforePolymorphism()
