@@ -12,7 +12,8 @@ namespace Läkarbesök.Models
         public DoctorsAppointment(Patient patient, Doctor doctor, DateTime dateTime)
             : base(dateTime)
         {
-            
+            Patient = patient;
+            Doctor = doctor;
         }
     }
 }

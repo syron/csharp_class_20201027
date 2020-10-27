@@ -6,10 +6,12 @@ namespace Läkarbesök.Models
 {
     public class Doctor : Human 
     {
-        public string Inriktning { get; set; }
+        public Inriktning Inriktning { get; set; }
 
-        public Doctor(string name) 
+        public Doctor(Inriktning inriktning, string name) 
         {
+            Name = name;
+            Inriktning = inriktning;
         }
 
         public override void Jump()

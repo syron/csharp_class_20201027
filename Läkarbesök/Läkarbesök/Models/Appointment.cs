@@ -7,6 +7,7 @@ namespace Läkarbesök.Models
     public class Appointment
     {
         public DateTime Date { get; set; }
+        public Coords Position { get; set; }
 
         public Appointment() 
         {

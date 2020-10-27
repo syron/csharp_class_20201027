@@ -10,7 +10,7 @@ namespace Läkarbesök.Models
 
         public Patient(string name)
         {
-           
+            Name = name;
         }
 
         public void HasHeadache()
