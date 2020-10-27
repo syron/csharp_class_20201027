@@ -7,15 +7,33 @@ namespace Läkarbesök.Models
     public class Human
     {
         public string Name { get; set; }
-        public int Age { get; set; }
+        private int Age { get; set; }
         public Color EyeColor { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
+        public Coords Position { get; set; }
 
         public void Move(int x, int y)
         {
-            X = x;
-            Y = y;
+            Position = new Coords(x, y);
+        }
+
+        public void SetAge(int age)
+        {
+            if (age < 0)
+            {
+                throw new Exception();
+            }
+
+            Age = age;
+        }
+
+        public int GetAge()
+        {
+            return Age;
+        }
+
+        public Coords GetPosition()
+        {
+            throw new NotImplementedException();
         }
     }
 }

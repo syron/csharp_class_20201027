@@ -12,19 +12,24 @@ namespace Läkarbesök
 
             Human human1 = new Human();
             human1.Name = "Robert Winston Leonard Jesko Paul Christian Mayer";
-            human1.Age = 32;
             human1.EyeColor = Color.Brown;
-            human1.X = 0;
-            human1.Y = 0;
+            human1.Position = new Coords(0, 0);
+
+            human1.SetAge(32);
+
 
             Human human2 = new Human()
             {
                 Name = "Robert Mayer",
-                Age = 32,
                 EyeColor = Color.Brown,
-                X = 0,
-                Y = 0
+                Position = new Coords(0, 0)
             };
+            human2.SetAge(32);
+
+
+            Console.WriteLine("Human2 Age: " + human2.GetAge());
+
+
         }
     }
 }

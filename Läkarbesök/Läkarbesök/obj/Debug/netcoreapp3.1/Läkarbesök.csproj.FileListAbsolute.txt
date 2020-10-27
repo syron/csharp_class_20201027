@@ -1,0 +1,16 @@
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\Läkarbesök.exe
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\Läkarbesök.deps.json
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\Läkarbesök.runtimeconfig.json
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\Läkarbesök.runtimeconfig.dev.json
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\Läkarbesök.dll
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\Läkarbesök.pdb
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\LäkarbesökHjälp.dll
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\bin\Debug\netcoreapp3.1\LäkarbesökHjälp.pdb
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.csprojAssemblyReference.cache
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.AssemblyInfoInputs.cache
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.AssemblyInfo.cs
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.csproj.CoreCompileInputs.cache
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.csproj.CopyComplete
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.dll
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.pdb
+C:\git\csharp_class_20201027\Läkarbesök\Läkarbesök\obj\Debug\netcoreapp3.1\Läkarbesök.genruntimeconfig.cache

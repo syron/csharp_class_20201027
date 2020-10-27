@@ -1,0 +1,9 @@
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\bin\Debug\netstandard2.0\LäkarbesökHjälp.deps.json
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\bin\Debug\netstandard2.0\LäkarbesökHjälp.dll
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\bin\Debug\netstandard2.0\LäkarbesökHjälp.pdb
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\obj\Debug\netstandard2.0\LäkarbesökHjälp.csprojAssemblyReference.cache
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\obj\Debug\netstandard2.0\LäkarbesökHjälp.AssemblyInfoInputs.cache
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\obj\Debug\netstandard2.0\LäkarbesökHjälp.AssemblyInfo.cs
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\obj\Debug\netstandard2.0\LäkarbesökHjälp.csproj.CoreCompileInputs.cache
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\obj\Debug\netstandard2.0\LäkarbesökHjälp.dll
+C:\git\csharp_class_20201027\Läkarbesök\LäkarbesökHjälp\obj\Debug\netstandard2.0\LäkarbesökHjälp.pdb
