@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Läkarbesök", "Läkarbesök\Läkarbesök.csproj", "{475E5E84-4C90-48ED-96D7-7D661B91EC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LäkarbesökHjälp", "LäkarbesökHjälp\LäkarbesökHjälp.csproj", "{FF4A1ACE-B180-43D2-9340-A440867FEFA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{475E5E84-4C90-48ED-96D7-7D661B91EC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475E5E84-4C90-48ED-96D7-7D661B91EC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475E5E84-4C90-48ED-96D7-7D661B91EC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475E5E84-4C90-48ED-96D7-7D661B91EC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4A1ACE-B180-43D2-9340-A440867FEFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4A1ACE-B180-43D2-9340-A440867FEFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4A1ACE-B180-43D2-9340-A440867FEFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4A1ACE-B180-43D2-9340-A440867FEFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4BE804-A092-486E-A3DC-CD50765C67E9}
+	EndGlobalSection
+EndGlobal

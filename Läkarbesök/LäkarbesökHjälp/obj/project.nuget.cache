@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9F2Xrv6J/Nwb8/d5MPG+bLNLivblfB3b3otgczOsrBsylR9RodqFvl1H8SrLR+RyoCGC0GOWuRHZvozCVYIXDQ==",
+  "success": true,
+  "projectFilePath": "C:\\git\\csharp_class_20201027\\Läkarbesök\\LäkarbesökHjälp\\LäkarbesökHjälp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LäkarbesökHjälp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LäkarbesökHjälp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LäkarbesökHjälp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LäkarbesökHjälp/1.0.0": {
+      "type": "project",
+      "path": "../LäkarbesökHjälp/LäkarbesökHjälp.csproj",
+      "msbuildProject": "../LäkarbesökHjälp/LäkarbesökHjälp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LäkarbesökHjälp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\git\\csharp_class_20201027\\Läkarbesök\\Läkarbesök\\Läkarbesök.csproj",
+      "projectName": "Läkarbesök",
+      "projectPath": "C:\\git\\csharp_class_20201027\\Läkarbesök\\Läkarbesök\\Läkarbesök.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\git\\csharp_class_20201027\\Läkarbesök\\Läkarbesök\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\git\\csharp_class_20201027\\Läkarbesök\\LäkarbesökHjälp\\LäkarbesökHjälp.csproj": {
+              "projectPath": "C:\\git\\csharp_class_20201027\\Läkarbesök\\LäkarbesökHjälp\\LäkarbesökHjälp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
