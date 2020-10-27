@@ -1,6 +1,5 @@
 ﻿using System;
 using Läkarbesök.Models;
-using LäkarbesökHjälp;
 
 namespace Läkarbesök
 {
@@ -10,10 +9,19 @@ namespace Läkarbesök
         {
             Console.WriteLine("Creating our first human!");
 
+            Human human1 = new Human("Robert Winston Leonard Jesko Paul Christian Mayer", 32);
+            Human human2 = new Human("Robert Winston Leonard Jesko Paul Christian Mayer");
+            human2.SetAge(32);
+
+
+            Appointment a = new Appointment();
+        }
+
+        static void CreateHumansBeforePolymorphism()
+        {
             Human human1 = new Human();
             human1.Name = "Robert Winston Leonard Jesko Paul Christian Mayer";
             human1.EyeColor = Color.Brown;
-            human1.Position = new Coords(0, 0);
 
             human1.SetAge(32);
 
@@ -21,15 +29,12 @@ namespace Läkarbesök
             Human human2 = new Human()
             {
                 Name = "Robert Mayer",
-                EyeColor = Color.Brown,
-                Position = new Coords(0, 0)
+                EyeColor = Color.Brown
             };
             human2.SetAge(32);
 
 
             Console.WriteLine("Human2 Age: " + human2.GetAge());
-
-
         }
     }
 }

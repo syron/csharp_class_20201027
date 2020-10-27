@@ -11,7 +11,30 @@ namespace Läkarbesök.Models
         public Color EyeColor { get; set; }
         public Coords Position { get; set; }
 
+        public Human()
+        {
+            Position = new Coords(0, 0);
+        }
+
+        public Human(string name)
+        {
+            Position = new Coords(0, 0);
+            Name = name;
+        }
+
+        public Human(string name, int age)
+        {
+            Position = new Coords(0, 0);
+            Name = name;
+            Age = age;
+        }
+
         public void Move(int x, int y)
+        {
+            Position = new Coords(x, y);
+        }
+
+        public void Move(int x, int y, int speed)
         {
             Position = new Coords(x, y);
         }
