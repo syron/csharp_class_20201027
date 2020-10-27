@@ -4,12 +4,18 @@ using System.Text;
 
 namespace Läkarbesök.Models
 {
-    public class Doctor : Human 
+    public class Patient : Human
     {
-        public string Inriktning { get; set; }
+        public bool Headache { get; set; }
 
-        public Doctor(string name) 
+        public Patient(string name)
         {
+           
+        }
+
+        public void HasHeadache()
+        {
+            Headache = true;
         }
 
         public override void Jump()

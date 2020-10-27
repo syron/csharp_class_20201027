@@ -6,10 +6,12 @@ namespace Läkarbesök.Models
 {
     public enum Color
     {
-        White = 0,
-        Brown = 1,
-        Black = 2,
-        Blue = 3,
-        Green = 4
+        White = 100,
+        WhiteSmoke = 101,
+        GhostWhite = 102,
+        Brown = 200,
+        SaddleBrown = 201,
+        Blue = 300,
+        DarkBlue = 301
     }
 }

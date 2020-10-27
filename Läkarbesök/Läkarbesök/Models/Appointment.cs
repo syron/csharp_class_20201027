@@ -7,42 +7,15 @@ namespace Läkarbesök.Models
     public class Appointment
     {
         public DateTime Date { get; set; }
-        public Human Patient { get; set; }
-        public Human Doctor { get; set; }
 
-        public Appointment() { }
-
-        /// <summary>
-        /// Patient ringer vårdcentralen, har ingen läkare, behöver tid.
-        /// </summary>
-        /// <param name="patient"></param>
-        public void Book(Human patient) 
+        public Appointment() 
         {
-            Patient = patient;
+            Date = DateTime.Now.AddMonths(1);
         }
 
-        /// <summary>
-        /// Patient ringer vårdcentralen, har läkare, behöver tid
-        /// </summary>
-        /// <param name="doctor"></param>
-        /// <param name="patient"></param>
-        public void Book(Human doctor, Human patient)
+        public Appointment(DateTime dateTime)
         {
-            Patient = patient;
-            Doctor = doctor;
+            Date = dateTime;
         }
-
-        /// <summary>
-        /// Patient bokar tid med sin läkare.
-        /// </summary>
-        /// <param name="doctor"></param>
-        /// <param name="patient"></param>
-        /// <param name="dateTime"></param>
-        public void Book(Human doctor, Human patient, DateTime dateTime)
-        {
-
-        }
-
-
     }
 }

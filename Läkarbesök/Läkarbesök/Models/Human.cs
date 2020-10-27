@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Läkarbesök.Models.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Läkarbesök.Models
 {
-    public class Human
+    public abstract class Human : IHuman
     {
         public string Name { get; set; }
         private int Age { get; set; }
+        protected string InsuranceNumber { get; set; }
         public Color EyeColor { get; set; }
         public Coords Position { get; set; }
 
@@ -16,23 +18,12 @@ namespace Läkarbesök.Models
             Position = new Coords(0, 0);
         }
 
-        //public Human(string name)
-        //{
-        //    Position = new Coords(0, 0);
-        //    Name = name;
-        //}
-
-        //public Human(string name, int age)
-        //{
-        //    Position = new Coords(0, 0);
-        //    Name = name;
-        //    Age = age;
-        //}
-
         public virtual void Move(int x, int y)
         {
             Position = new Coords(x, y);
         }
+
+        public abstract void Jump();
 
         public void Move(int x, int y, int speed)
         {
@@ -54,7 +45,12 @@ namespace Läkarbesök.Models
             return Age;
         }
 
-        public Coords GetPosition()
+        public void Breath()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Coords GetCurrentPosition()
         {
             throw new NotImplementedException();
         }
